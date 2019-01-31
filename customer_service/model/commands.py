@@ -1,3 +1,6 @@
+from customer_service.model.customer import Customer
+
+
 def get_customer(customer_id, customer_repository):
     return customer_repository.fetch_by_id(customer_id)
 
